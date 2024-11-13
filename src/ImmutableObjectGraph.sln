@@ -26,12 +26,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoslynDemo", "RoslynDemo\Ro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmutableObjectGraph.Generation.Attributes", "ImmutableObjectGraph.Generation.Attributes\ImmutableObjectGraph.Generation.Attributes.csproj", "{7B6DD09E-BD82-4B88-A10D-6D5606519ECD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "..\build\_build.csproj", "{CE66A3C4-F36E-4A28-8CAF-125EAB6FF8B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE66A3C4-F36E-4A28-8CAF-125EAB6FF8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE66A3C4-F36E-4A28-8CAF-125EAB6FF8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63930555-500F-4E7B-9F24-3D5C3D4F0573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{63930555-500F-4E7B-9F24-3D5C3D4F0573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63930555-500F-4E7B-9F24-3D5C3D4F0573}.Release|Any CPU.ActiveCfg = Release|Any CPU
